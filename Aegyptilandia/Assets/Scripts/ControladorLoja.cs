@@ -23,14 +23,14 @@ public class ControladorLoja : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		//moedas = PlayerPrefs.GetInt("Coins");
-		//vida = PlayerPrefs.GetFloat ("Vida");
-		//veneno =  PlayerPrefs.GetInt("Veneno");
-		//aguaSanitaria =  PlayerPrefs.GetInt("Agua");
-		moedas = 100;
-		vida = 90;
-		veneno = 90;
-		aguaSanitaria = 90;
+        moedas = PlayerPrefs.GetInt("Coins");
+        vida = PlayerPrefs.GetFloat("Vida");
+        veneno = PlayerPrefs.GetInt("Veneno");
+        aguaSanitaria = PlayerPrefs.GetInt("Agua");
+  //      moedas = 100;
+		//vida = 90;
+		//veneno = 90;
+		//aguaSanitaria = 90;
 
 		refreshTela ();
 		tAviso.text = "";
